@@ -30,6 +30,7 @@ html{
         text-align: center;
     }
     #manager{
+	margin: auto;
         flex-direction: column;
         padding-left: 1rem;
     }
