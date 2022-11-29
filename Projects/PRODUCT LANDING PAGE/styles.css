@@ -419,11 +419,11 @@ footer{
     text-align: center;
 }
 
-.social-link:hover .slogo{
+.icon:hover .slogo{
     transform: translateY(-1rem);
 }
 
-.social-link:hover p{
+.icon:hover p{
     transform: scale(1.2);
 }
 
