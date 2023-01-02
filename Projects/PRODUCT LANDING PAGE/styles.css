@@ -419,6 +419,13 @@ footer{
     text-align: center;
 }
 
+.icon:hover .slogo{
+    transform: translateY(-1rem);
+}
+
+.icon:hover p{
+    transform: scale(1.2);
+}
 
 
 #sawwe{
