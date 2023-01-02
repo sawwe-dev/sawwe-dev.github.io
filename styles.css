@@ -124,6 +124,36 @@ header{
     background-color: var(--blackS);
     color: var(--colorE);
 }
+
+/* Menú desplegable */
+#Projects-menu-list {
+    list-style: none;
+    display:none;
+    position:absolute;
+    top:100%;
+    background: var(--colorE);
+    padding:0;
+}
+
+#Projects-menu-list li{
+    position: relative;
+    float: none;
+    width:150px;
+}
+
+#Projects-menu-list a {
+    line-height:120%;
+    padding:10px 15px;
+}
+#Projects-menu-list a:hover {
+    color: white;
+}
+
+
+#nav-list li:hover > ul {
+    display:block;
+}
+
 /*MAIN*/
 
 @keyframes gradient {
