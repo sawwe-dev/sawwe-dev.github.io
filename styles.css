@@ -142,8 +142,8 @@ header{
 }
 
 #Projects-menu-list a {
-    line-height:120%;
-    padding:10px 15px;
+    line-height:110%;
+    padding:5px 15px;
 }
 #Projects-menu-list a:hover {
     color: white;
