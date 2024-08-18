@@ -34,8 +34,6 @@ font-family: 'Ubuntu', sans-serif; for titles
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-
 }
 
 html{
@@ -120,7 +118,6 @@ header{
 }
 
 #navbar li a:hover{
-    
     background-color: var(--blackS);
     color: var(--colorE);
 }
@@ -141,12 +138,16 @@ header{
     width:150px;
 }
 
-#Projects-menu-list a {
+#Projects-menu-list li a {
     line-height:110%;
     padding:5px 15px;
 }
 #Projects-menu-list a:hover {
     color: white;
+}
+#web-design-projects{
+    box-sizing: border-box;
+    margin: 1rem 0;
 }
 
 
@@ -233,6 +234,9 @@ header{
     #title{
         font-size: 3rem;
     }
+    #welcome-text h1{
+        margin: 0 2rem;
+    }
 }
 
 @media only screen and (max-width: 400px){
@@ -249,6 +253,10 @@ header{
     }
     #title{
         font-size: 3rem;
+    }
+    #welcome-text h1{
+        font-size: 3rem;
+        text-align: center;
     }
 }
 
@@ -464,8 +472,11 @@ footer{
     background-color: var(--color2);
     height: 3rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
 }
 
 #sawwe{
@@ -474,6 +485,10 @@ footer{
 	display: block;
 	width: auto;	
     font-style: italic;
+}
+
+#sawwe p{
+    color: var(--colorE);
 }
 
 #sawwe a{
@@ -485,4 +500,18 @@ footer{
     color: white;
 }
 
+#note{
+    display: inline;
+}
+#note p{
+    color: var(--colorE);
+}
 
+#note   ª a{
+    color: var(--colorE);
+    text-decoration: none;
+}
+
+#note a:hover{
+    color: white;
+}
