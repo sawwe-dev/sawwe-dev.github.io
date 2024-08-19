@@ -107,6 +107,10 @@ footer{
 }
 
 #signature{
-    color:rgb(193, 235, 235);
+    color: var(--output);
     text-decoration: none;
+}
+
+#signature:hover{
+    color: var(--white);
 }

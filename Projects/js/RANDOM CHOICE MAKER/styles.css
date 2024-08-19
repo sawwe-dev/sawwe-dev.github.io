@@ -91,6 +91,8 @@ footer{
     width: 100vw;
     text-align: center;
     height: 2rem;
+    padding-top: 1rem;
+    box-sizing: content-box;
 }
 
 #sawwe{

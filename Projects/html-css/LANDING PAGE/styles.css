@@ -175,5 +175,22 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
+}
+
+#sawwe{
+	text-align: center;
+	font-size: 1.2rem;
+	display: block;
+	width: auto;	
+    font-style: italic;
+}
+
+#sawwe a{
+    color: var(--call-to-action);
+    text-decoration: none;
+}
+
+#sawwe a:hover{
+    color: white;
 }

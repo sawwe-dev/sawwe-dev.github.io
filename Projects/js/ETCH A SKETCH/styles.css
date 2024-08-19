@@ -101,10 +101,11 @@ footer{
 }
 
 #sawwe a{
-    color: var(--white);
+    color: rgb(166, 246, 244);
+    
     text-decoration: none;
 }
 
 #sawwe a:hover{
-    color: rgb(166, 246, 244);
+    color: var(--white);
 }

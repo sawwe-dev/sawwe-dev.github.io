@@ -125,10 +125,10 @@ function clean(){
 
 function del(){
     if(mode == "o1"){
-        op1 = Math.floor(op1 / 10)
+        op1 = op1.slice(0, -1)
         print(op1)
     }else if(mode == "o2"){
-        op2 = Math.floor(op2 / 10)
+        op2 = op2.slice(0, -1)
         print(op2)
     }
 }
